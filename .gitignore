@@ -1,4 +1,8 @@
 .venv/
-*.wav
 data/
+data_*/
+*.wav
+*.npz
+*.pt
 __pycache__/
+.DS_Store
