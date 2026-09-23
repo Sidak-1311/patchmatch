@@ -1,0 +1,19 @@
+data  group=full  val=4735 examples
+rows marked * were varied; unmarked were frozen
+
+continuous — mean absolute error vs chance
+  * 0.050  chance 0.333  0.15x  good   Oscillator 1 Transpose
+  * 0.098  chance 0.333  0.29x  good   Envelope 1 Release
+  * 0.106  chance 0.233  0.45x  good   Envelope 1 Attack
+  * 0.154  chance 0.333  0.46x  good   Envelope 1 Release Power
+  * 0.167  chance 0.333  0.50x  weak   Envelope 1 Attack Power
+  * 0.185  chance 0.333  0.55x  weak   Filter 1 Mix
+  * 0.197  chance 0.333  0.59x  weak   Oscillator 1 Distortion Amount
+  * 0.214  chance 0.333  0.64x  weak   Envelope 1 Sustain
+  * 0.222  chance 0.333  0.67x  weak   Envelope 1 Decay
+  * 0.191  chance 0.283  0.67x  weak   Filter 1 Cutoff
+  * 0.108  chance 0.150  0.72x  weak   Oscillator 1 Level
+
+categorical — accuracy
+  * 0.370  chance 0.125  2.96x  Filter 1 Model
+  * 0.573  chance 0.111  5.15x  Oscillator 1 Distortion Type
