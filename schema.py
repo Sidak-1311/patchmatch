@@ -31,7 +31,7 @@ FIXED = {
 # (index, name, lo, hi) — sampled uniformly in [lo, hi]. Regression outputs.
 CONTINUOUS = [
     (382, "Oscillator 1 Level",             0.55, 1.00),
-    (391, "Oscillator 1 Transpose",         0.00, 1.00),
+    (391, "Oscillator 1 Transpose",         0.45, 0.55),
     (377, "Oscillator 1 Distortion Amount", 0.00, 1.00),
     (104, "Filter 1 Cutoff",                0.15, 1.00),
     (112, "Filter 1 Mix",                   0.00, 1.00),
